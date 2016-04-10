@@ -54,4 +54,7 @@
 ![image](https://github.com/mixinan/QRCode/blob/master/picture/github.png)
 
 
+----------
+#参考博客
+> http://blog.csdn.net/u010156024/article/details/49126943
 
