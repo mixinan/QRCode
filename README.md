@@ -31,11 +31,10 @@ File - settings - Editor - General - code completion - 第一项改为“None”。
 
 【在README.md 中增加图片】
 
-格式：
-! [ image ]( url ) 
+
+效果如下：
 
 ![image](https://github.com/mixinan/QRCode/blob/master/picture/github.png)
 
-测试：直接使用网络图片
-![image](http://article.fd.zol-img.com.cn/t_s640x2000/g2/M00/00/00/ChMlWlW64UuISnFQAAJQ2-LuoJUAAH6IwCaOPUAAlDz952.jpg)
+
 
