@@ -2,7 +2,7 @@
 
 ###以下是根据`Eclipse`版本的keymap总结：
 
-*<a href="http://guoxingnan.cc" title="我的博客" target="_blank">万码千钧</a>*
+<a href="http://guoxingnan.cc" title="我的博客" target="_blank">万码千钧</a>
 
 ##文件重命名
 
