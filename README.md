@@ -1,14 +1,10 @@
-#`keymap`的模式不同，快捷键也不同?
+###`keymap`的模式不同，快捷键也不同?
 
-#以下是根据`Eclipse`版本的keymap总结
+###以下是根据`Eclipse`版本的keymap总结：
 
+*<a href="http://guoxingnan.cc" title="我的博客" target="_blank">万码千钧</a>*
 
-
-
-----------
-
-
-#文件重命名
+##文件重命名
 
 
 
@@ -22,20 +18,16 @@
 
 
 
-----------
 
 
-# 代码提示不区分大小写
+##代码提示不区分大小写
 
 >File - settings - Editor - General - code completion
 >
 >第一项改为“None”。
 
 
-----------
-
-
-#在本地增加README.md 文档
+##在本地增加README.md 文档
 
 >后缀md 指的是markdown 格式。
 >
@@ -43,9 +35,7 @@
 
 
 
-----------
-
-#在README.md 中增加图片
+##在README.md 中增加图片
 
 ![image](https://github.com/mixinan/QRCode/blob/master/picture/addPictureToReadme.png)
 
@@ -54,7 +44,5 @@
 ![image](https://github.com/mixinan/QRCode/blob/master/picture/github.png)
 
 
-----------
-#参考博客
-> http://blog.csdn.net/u010156024/article/details/49126943
+###<a href="http://blog.csdn.net/u010156024/article/details/49126943" title="20160410读到" target="_blank">参考博客</a>
 
