@@ -23,5 +23,9 @@ File - settings - Editor - General - code completion - 第一项改为“None”。
 
 
 
+【在本地增加README.md 文档】
+
+后缀md 指的是markdown 格式。在项目的根目录增加同名（以及后缀）的文本文件，编辑即可。
+
 
 
