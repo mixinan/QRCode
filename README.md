@@ -31,7 +31,9 @@ File - settings - Editor - General - code completion - 第一项改为“None”。
 
 【在README.md 中增加图片】
 
-![image](https://github.com/mixinan/QRCode/blob/master/picture/addPictureToReadme.png）
+提交格式：
+
+![image](https://github.com/mixinan/QRCode/blob/master/picture/addPictureToReadme.png)
 
 效果如下：
 
