@@ -44,5 +44,10 @@
 ![image](https://github.com/mixinan/QRCode/blob/master/picture/github.png)
 
 
-###<a href="http://blog.csdn.net/u010156024/article/details/49126943" title="20160410读到" target="_blank">参考博客</a>
+----------
 
+<a href="http://blog.csdn.net/u010156024/article/details/49126943" title="20160410读到" target="_blank">参考博客</a>
+
+----------
+
+以前稀里糊涂用过zxing，今天算是学会了，感谢慕课网。
