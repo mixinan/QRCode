@@ -9,12 +9,64 @@
     android:orientation="vertical"
     tools:context=".MainActivity" >
 
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:gravity="center"
+        android:textSize="@dimen/title_textSize"
+        android:background="@drawable/title_bar"/>
+
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="@color/section_green"
+        android:gravity="left|top"
+        android:textIsSelectable="true"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btCopy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/copy"
+        android:onClick="doClick"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/btGo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/openUrl"
+        android:onClick="doClick"
+        android:layout_marginTop="8dp"
+        />
+    <Button
+        android:id="@+id/btDial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doClick"
+        android:text="@string/dial"
+        android:layout_marginTop="8dp"
+        />
+    <Button
+        android:id="@+id/btNew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doClick"
+        android:text="@string/reScan"
+        android:layout_marginTop="8dp"
+        />
     <Button
         android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="scan"
-        android:text="Scan" />
+        android:text="扫描二维码" />
 
     <TextView
         android:id="@+id/textView1"

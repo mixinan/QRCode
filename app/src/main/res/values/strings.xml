@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">我要扫码</string>
+
+    <string name="baidu">搜索</string>
+    <string name="home">退出</string>
+    <string name="http">网址</string>
+    <string name="copy">复制内容</string>
+    <string name="openUrl">打开网页</string>
+    <string name="dial">拨打电话</string>
+    <string name="reScan">重新扫描</string>
 </resources>
