@@ -32,7 +32,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.example.administrator.qrcode.PageActivity"/>
+        <activity android:name="com.example.administrator.qrcode.WebActivity"/>
 
     </application>
 
