@@ -8,4 +8,7 @@
     <string name="openUrl">打开网页</string>
     <string name="dial">拨打电话</string>
     <string name="reScan">重新扫描</string>
+    <string name="input">请输入文本</string>
+    <string name="make">生成二维码</string>
+    <string name="scan">扫描二维码</string>
 </resources>

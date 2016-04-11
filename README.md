@@ -38,7 +38,10 @@
 >
 >File ---Settings ---  Version Control ---Git，在第一栏填写Git.exe所在路径 --- OK --- 在左侧导航栏选择GitHub --- 输入账号密码 --- OK --- 关联成功，以后可以点击菜单栏VCS --- Commit Changes，或者直接在工具栏点击VCS图标更新代码。
 
-
+##设置文件的编码格式
+>File --- File Encoding --- 选择对应的编码。
+>
+>选完以后，可以在Android Studio窗口右下角的位置看到当前的编码格式，如果要更改，直接点击它就可以重新选择了。
 
 ##在README.md 中增加图片
 
