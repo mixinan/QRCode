@@ -1,4 +1,4 @@
-###`keymap`的模式不同，快捷键也不同?
+###选择不同的`keymap`模板，快捷键是不同的。
 
 ###以下是根据`Eclipse`版本的keymap总结：
 
@@ -32,6 +32,11 @@
 >后缀md 指的是markdown 格式。
 >
 >在项目的根目录，新建README.md，编辑即可。
+
+##关联Android Studio 和 github
+>在Android Studio 中，可以配置github 账号和git ，步骤：
+>
+>File ---Settings ---  Version Control ---Git，在第一栏填写Git.exe所在路径 --- OK --- 在左侧导航栏选择GitHub --- 输入账号密码 --- OK --- 关联成功，以后可以点击菜单栏VCS --- Commit Changes，或者直接在工具栏点击VCS图标更新代码。
 
 
 
