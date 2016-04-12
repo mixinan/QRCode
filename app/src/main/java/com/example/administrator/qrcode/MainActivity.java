@@ -12,6 +12,8 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.administrator.test.R;
 import com.xys.libzxing.zxing.activity.CaptureActivity;
 import com.xys.libzxing.zxing.encoding.EncodingUtils;
 
@@ -32,7 +34,7 @@ public class MainActivity extends Activity implements View.OnClickListener,View.
 		tvTitle.setOnClickListener(this);
 		tvTitle.setOnLongClickListener(this);
 		iv = (ImageView) findViewById(R.id.imageView);
-		et = (EditText)findViewById(R.id.editText1);
+		et = (EditText)findViewById(R.id.editText);
 		
 	}
 
