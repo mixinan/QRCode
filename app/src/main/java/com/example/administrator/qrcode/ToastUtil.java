@@ -5,12 +5,10 @@ import android.widget.Toast;
 
 public class ToastUtil {
 	private Toast toast;
-	
-	
+
 	public ToastUtil() {
 		super();
 	}
-
 
 	public void showToast(Context context,String string){
 		if (toast == null) {
@@ -26,6 +24,4 @@ public class ToastUtil {
 		toast.cancel();
 		}
 	}
-	
-	
 }

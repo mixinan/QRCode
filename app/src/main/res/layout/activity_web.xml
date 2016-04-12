@@ -7,31 +7,31 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/title_activity_height"
-        android:background="@drawable/title_bar"
+        android:background="@android:color/holo_green_dark"
         >
 
         <TextView
             android:id="@+id/tv_home"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
             android:gravity="center_vertical"
             android:text="@string/home"
-            android:textColor="@color/white"
+            android:textColor="#ffffff"
             android:textSize="@dimen/title_textSize" />
 
         <View
             android:layout_width="0.5dp"
             android:layout_height="15dp"
             android:layout_gravity="center_vertical"
-            android:layout_marginLeft="8dp"
-            android:background="@color/section_green" />
+            android:layout_marginStart="8dp"
+            android:background="#CBD5CB" />
 
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="3dp" >
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="3dp" >
 
             <TextView
                 android:id="@+id/tv_net"
@@ -41,7 +41,7 @@
                 android:gravity="center_vertical"
                 android:singleLine="true"
                 android:text="@string/http"
-                android:textColor="@color/white"
+                android:textColor="@android:color/white"
                 android:textSize="@dimen/title_textSize" />
 
             <!-- 发送框 -->
@@ -58,7 +58,7 @@
                     android:id="@+id/web_bt"
                     android:layout_width="wrap_content"
                     android:layout_height="40dp"
-                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
                     android:layout_centerVertical="true"
                     android:onClick="doClick"
                     android:paddingLeft="6dp"
@@ -69,13 +69,12 @@
                     android:layout_width="fill_parent"
                     android:layout_height="match_parent"
                     android:layout_centerVertical="true"
-                    android:layout_toLeftOf="@id/web_bt" >
+                    android:layout_toStartOf="@id/web_bt" >
 
                     <EditText
                         android:id="@+id/web_et"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/login_edit_normal"
                         android:ellipsize="end"
                         android:hint=""
                         android:singleLine="true"
@@ -85,8 +84,8 @@
                         android:id="@+id/web_et_delete"
                         android:layout_width="38dp"
                         android:layout_height="38dp"
-                        android:layout_gravity="center_vertical|right"
-                        android:layout_marginRight="3dp"
+                        android:layout_gravity="center_vertical|end"
+                        android:layout_marginEnd="3dp"
                         android:contentDescription="@null"
                         android:onClick="doClick"
                         android:src="@drawable/x"

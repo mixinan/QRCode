@@ -12,7 +12,6 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.administrator.test.R;
 import com.xys.libzxing.zxing.activity.CaptureActivity;
@@ -93,6 +92,7 @@ public class MainActivity extends Activity {
     }
 
 
+    @SuppressWarnings("deprecation")
     public static void copy(String string, Context context) {
         ClipboardManager cmb = (ClipboardManager) context
                 .getSystemService(Context.CLIPBOARD_SERVICE);
