@@ -121,11 +121,4 @@ public class MainActivity extends Activity {
         lastBackTime = System.currentTimeMillis();
         toast.showToast(this, "再按一次退出");
     }
-
-
-    @Override
-    protected void onStop() {
-        super.onStop();
-        finish();
-    }
 }
