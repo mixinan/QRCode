@@ -53,7 +53,7 @@ public class MainActivity extends Activity {
     public void make(View view){
         String string = et.getText().toString();
         if(string.equals("")){
-            Toast.makeText(this,"输入不能为空",Toast.LENGTH_LONG).show();
+            toast.showToast(MainActivity.this,"输入不能为空");
         }else{
             Bitmap bitmap = EncodingUtils.createQRCode(string,500,500,null);
             iv.setImageBitmap(bitmap);
@@ -89,7 +89,7 @@ public class MainActivity extends Activity {
                     break;
             }
         }else
-            toast.showToast(MainActivity.this,"内容为空");
+            toast.showToast(MainActivity.this,"内容为空，请先扫描");
     }
 
 

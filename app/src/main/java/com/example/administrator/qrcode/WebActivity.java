@@ -20,9 +20,6 @@ import android.widget.TextView;
 
 import com.example.administrator.test.R;
 
-/**
- * Created by 万码千钧 on 2016/4/11.
- */
 public class WebActivity extends Activity implements TextWatcher {
 
     private WebView webView;
